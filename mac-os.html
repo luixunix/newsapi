@@ -40,7 +40,7 @@
 </section>
 <script>
   const apiKey = 'c7e49263b2855d216ce14ee94a7c51f3'; // Clave de GNews API
-  const query = 'linux distributions'; // Consulta por categoria de tema
+  const query = 'apple mac os'; // Consulta por categoria de tema
   const today = new Date();
   const fromDate = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
   const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}&from=${fromDate}&max=10&apikey=${apiKey}`;
