@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9deb47ba-e377-49cd-a133-44123ae75f44" name="Changes" comment="actualice la busqueda de noticias con segunda fuente">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/almacenamiento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-computing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/databases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herramientas-opensource-de-hacking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home-labs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linux.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mac-os.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microsoft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/networking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/noticias-de-ciberseguridad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/programacion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotica.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soluciones-de-ciberseguridad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtualizacion.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Luis Rodriguez" />
+      </list>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luixunix&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/luixunix/luix.git",
+    "accountId": "468961c2-b780-4785-a0eb-1770616e0ad3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="36GD0Jbhjlq4bFz5mKDgMPpjpYb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.ai.html.executor": "Run",
+    "JavaScript Debug.cibersecuridad.html.executor": "Run",
+    "JavaScript Debug.herramientas-opensource-de-hacking.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.microsoft.html.executor": "Run",
+    "JavaScript Debug.programacion.html.executor": "Run",
+    "JavaScript Debug.robotica.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/luixu/WebstormProjects/luix",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/luixu/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/24.12.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luixu\WebstormProjects\luix" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luixu\WebstormProjects\luix" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9deb47ba-e377-49cd-a133-44123ae75f44" name="Changes" comment="" />
+      <created>1764623789495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764623789495</updated>
+      <workItem from="1764623790542" duration="1425000" />
+      <workItem from="1764640025803" duration="688000" />
+      <workItem from="1765730055086" duration="14978000" />
+      <workItem from="1765748937970" duration="457000" />
+      <workItem from="1765749838807" duration="1487000" />
+      <workItem from="1765759417765" duration="4817000" />
+      <workItem from="1765764370346" duration="227000" />
+      <workItem from="1765764619228" duration="2223000" />
+      <workItem from="1765766866355" duration="163000" />
+    </task>
+    <task id="LOCAL-00001" summary="test 2">
+      <option name="closed" value="true" />
+      <created>1765759810907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765759810907</updated>
+    </task>
+    <task id="LOCAL-00002" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764672863</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764672863</updated>
+    </task>
+    <task id="LOCAL-00003" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764739168</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764739168</updated>
+    </task>
+    <task id="LOCAL-00004" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764755054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764755054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764760718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764760718</updated>
+    </task>
+    <task id="LOCAL-00006" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764766198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764766198</updated>
+    </task>
+    <task id="LOCAL-00007" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764773042</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764773042</updated>
+    </task>
+    <task id="LOCAL-00008" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764781999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764781999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764832839</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764832839</updated>
+    </task>
+    <task id="LOCAL-00010" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765764850436</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765764850436</updated>
+    </task>
+    <task id="LOCAL-00011" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765359668</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765359668</updated>
+    </task>
+    <task id="LOCAL-00012" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765395302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765395302</updated>
+    </task>
+    <task id="LOCAL-00013" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765410641</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765410641</updated>
+    </task>
+    <task id="LOCAL-00014" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765419177</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765419177</updated>
+    </task>
+    <task id="LOCAL-00015" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765425917</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765425917</updated>
+    </task>
+    <task id="LOCAL-00016" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765438222</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765438222</updated>
+    </task>
+    <task id="LOCAL-00017" summary="actualice la busqueda de noticias con segunda fuente">
+      <option name="closed" value="true" />
+      <created>1765765456174</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765765456174</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test 2" />
+    <MESSAGE value="actualice la busqueda de noticias con segunda fuente" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualice la busqueda de noticias con segunda fuente" />
+  </component>
+</project>

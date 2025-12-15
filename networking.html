@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Networking - Luix Cybersecurity Tips & Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Luix Cybersecurity Tips & Tools</h1>
+  <h2>Networking</h2>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="noticias-de-ciberseguridad.html">Noticias de Ciberseguridad</a></li>
+    <li><a href="herramientas-opensource-de-hacking.html">Herramientas de Hacking</a></li>
+    <li><a href="soluciones-de-ciberseguridad.html">Soluciones de Ciberseguridad</a></li>
+    <li><a href="cloud-computing.html">Cloud Computing</a></li>
+    <li><a href="networking.html">Networking</a></li>
+    <li><a href="databases.html">Databases</a></li>
+    <li><a href="programacion.html">Programación</a></li>
+    <li><a href="virtualizacion.html">Virtualización</a></li>
+    <li><a href="home-labs.html">Home Labs</a></li>
+    <li><a href="almacenamiento.html">Almacenamiento</a></li>
+    <li><a href="linux.html">Linux</a></li>
+    <li><a href="microsoft.html">Microsoft</a></li>
+    <li><a href="mac-os.html">Mac OS</a></li>
+    <li><a href="ai.html">Inteligencia Artificial (IA)</a></li>
+    <li><a href="si.html">Inteligencia Sintética (IS)</a></li>
+    <li><a href="robotica.html">Robótica</a></li>
+  </ul>
+</nav>
+<section>
+  <h3>Top 10 Noticias de la Última Semana (Actualizadas Dinámicamente)</h3>
+  <ul id="news-list">
+    <!-- Noticias se cargarán aquí vía JavaScript -->
+  </ul>
+</section>
+<script>
+  <!-- Usamos 2 API Keys de forma alterna para poder hacer pruebas cuando una llega al limite diario -->
+  // const apiKey = '6fec12a487294543b3f711f02458a91a'; // Clave de NewsAPI.org N#1
+  const apiKey = '0064974eb8c1426a84ee39dbe1181d1c'; // Clave de NewsAPI.org N#2
+  const query = 'networking'; // Consulta por categoria de tema
+  const today = new Date();
+  const fromDate = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+  const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&from=${fromDate}&sortBy=popularity&pageSize=10&apiKey=${apiKey}`;
+
+  fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            const newsList = document.getElementById('news-list');
+            if (data.articles && data.articles.length > 0) {
+              data.articles.forEach(article => {
+                const li = document.createElement('li');
+                li.innerHTML = `<a href="${article.url}" target="_blank">${article.title}</a> - ${article.publishedAt}`;
+                newsList.appendChild(li);
+              });
+            } else {
+              newsList.innerHTML = '<li>No se encontraron noticias para la última semana.</li>';
+            }
+          })
+          .catch(error => {
+            console.error('Error fetching news:', error);
+            document.getElementById('news-list').innerHTML = '<li>Error al cargar noticias. Verifica tu clave API o conexión.</li>';
+          });
+</script>
+</body>
+</html>
