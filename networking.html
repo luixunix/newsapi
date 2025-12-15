@@ -39,14 +39,11 @@
   </ul>
 </section>
 <script>
-  <!-- Usamos 2 API Keys de forma alterna para poder hacer pruebas cuando una llega al limite diario -->
-  // const apiKey = '6fec12a487294543b3f711f02458a91a'; // Clave de NewsAPI.org N#1
-  const apiKey = '0064974eb8c1426a84ee39dbe1181d1c'; // Clave de NewsAPI.org N#2
+  const apiKey = 'c7e49263b2855d216ce14ee94a7c51f3'; // Clave de GNews API
   const query = 'networking'; // Consulta por categoria de tema
   const today = new Date();
   const fromDate = new Date(today.getTime() - 7 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
-  const url = `https://newsapi.org/v2/everything?q=${encodeURIComponent(query)}&from=${fromDate}&sortBy=popularity&pageSize=10&apiKey=${apiKey}`;
-
+  const url = `https://gnews.io/api/v4/search?q=${encodeURIComponent(query)}&from=${fromDate}&max=10&apikey=${apiKey}`;
   fetch(url)
           .then(response => response.json())
           .then(data => {
